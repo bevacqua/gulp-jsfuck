@@ -1,0 +1,18 @@
+{
+  "name": "gulp-jsfuck",
+  "description": "Fuck JavaScript and obfuscate it",
+  "version": "0.2.1",
+  "author": "Nicolas Bevacqua <hello@bevacqua.io>",
+  "dependencies": {
+    "deepmerge": "~0.2.7",
+    "jsfuck": "~0.1.0",
+    "through2": "~0.4.1",
+    "gulp-util": "~2.2.14"
+  },
+  "homepage": "http://bevacqua.io",
+  "keywords": [
+    "gulpplugin"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/bevacqua/gulp-jsfuck.git"
+}
