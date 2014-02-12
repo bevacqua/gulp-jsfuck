@@ -1,10 +1,9 @@
 {
   "name": "gulp-jsfuck",
-  "description": "Fuck JavaScript and obfuscate it",
+  "description": "Fuck JavaScript and obfuscate it using only 6 characters ()+[]!",
   "version": "0.2.1",
   "author": "Nicolas Bevacqua <hello@bevacqua.io>",
   "dependencies": {
-    "deepmerge": "~0.2.7",
     "jsfuck": "~0.1.0",
     "through2": "~0.4.1",
     "gulp-util": "~2.2.14"

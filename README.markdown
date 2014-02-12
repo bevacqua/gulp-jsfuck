@@ -1,8 +1,8 @@
 # `gulp-jsfuck`
 
-> Fuck JavaScript and obfuscate it
+> Fuck JavaScript and obfuscate it using only 6 characters ()+[]!
 
-Uses [JSFuck](http://www.jsfuck.com/) to obfuscate your JavaScript code
+Uses [JSFuck](http://www.jsfuck.com/) to obfuscate your JavaScript code.
 
 ## Installing
 
@@ -14,8 +14,15 @@ npm i -D gulp-jsfuck
 var jsfuck = require('gulp-jsfuck');
 ```
 
-## Using
+## Usage
 
+Just pipe through `jsfuck`
+
+```js
+gulp.src('path/to/src')
+  .pipe(jsfuck())
+  .pipe(gulp.dest('path/to/dest'))
+```
 
 ## License
 
